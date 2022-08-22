@@ -6,28 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Rammstein_logos_joined.svg/1200px-Rammstein_logos_joined.svg.png">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- linkear nuestro css -->
     <link rel="stylesheet" href="css/style.css">
+
     <title>Rammstein</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <!-- Seccion de presentacion de la banda -->
     <header>
-        <h1 class="page__tittle">Rammstein</h1>
-
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/integrantes.html">Integrantes</a></li>
-                    <li><a href="pages/conciertos.html">Conciertos</a></li>
-                    <li><a href="pages/productos.html">productos</a></li>
-                    <li><a href="pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                    </ol>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Rammstein_logos_joined.svg/1200px-Rammstein_logos_joined.svg.png"
+                        alt="" width="50" height="24" class="img-fluid">
+                    Rammstein
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="pages/integrantes.html">Integrantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/conciertos.html">Conciertos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="contenedorDesc">
 
@@ -46,73 +69,93 @@
 
     <!-- fila de información de los discos -->
 
-    <div class="containerSubtitle">
+    <h4 class="text-center p-5">Nuestros discos</h4>
 
-        <h4>Nuestros discos</h4>
-
+    <div class="container">
+        <table border="1" cellpadding="1" cellspacing="1" class="table">
+            <tr class="table__tittle">
+                <th>Disco</th>
+                <th>Fecha</th>
+            </tr>
+            <tr>
+                <td>Herzeleid</td>
+                <td>24 de septiembre de 1995</td>
+            </tr>
+            <tr>
+                <td>Sehnsucht</td>
+                <td>22 de agosto de 1997</td>
+            </tr>
+            <tr>
+                <td>Live aus Berlin</td>
+                <td>31 de agosto de 1999</td>
+            </tr>
+            <tr>
+                <td>Mutter</td>
+                <td>2 de abril de 2001</td>
+            </tr>
+            <tr>
+                <td>Reise, Reise</td>
+                <td>27 de septiembre de 2004</td>
+            </tr>
+            <tr>
+                <td>Rosenrot</td>
+                <td>28 de octubre de 2005</td>
+            </tr>
+            <tr>
+                <td>Völkerball</td>
+                <td>17 de noviembre de 2006</td>
+            </tr>
+            <tr>
+                <td>Liebe ist für alle da</td>
+                <td>16 de octubre de 2009</td>
+            </tr>
+            <tr>
+                <td>Rammstein</td>
+                <td>17 de mayo de 2019</td>
+            </tr>
+            <tr>
+                <td>Zeit</td>
+                <td>29 de abril de 2022</td>
+            </tr>
+        </table>
     </div>
-
-    <div class="containerTable">
-        <div class="conentTable">
-            <table border="1" cellpadding="1" cellspacing="1" class="table">
-                <tr class="table__tittle">
-                    <th>Disco</th>
-                    <th>Fecha</th>
-
-                </tr>
-                <tr>
-                    <td>Herzeleid</td>
-                    <td>24 de septiembre de 1995</td>
-                </tr>
-                <tr>
-                    <td>Sehnsucht</td>
-                    <td>22 de agosto de 1997</td>
-                </tr>
-                <tr>
-                    <td>Live aus Berlin</td>
-                    <td>31 de agosto de 1999</td>
-                </tr>
-                <tr>
-                    <td>Mutter</td>
-                    <td>2 de abril de 2001</td>
-                </tr>
-                <tr>
-                    <td>Reise, Reise</td>
-                    <td>27 de septiembre de 2004</td>
-                </tr>
-                <tr>
-                    <td>Rosenrot</td>
-                    <td>28 de octubre de 2005</td>
-                </tr>
-                <tr>
-                    <td>Völkerball</td>
-                    <td>17 de noviembre de 2006</td>
-                </tr>
-                <tr>
-                    <td>Liebe ist für alle da</td>
-                    <td>16 de octubre de 2009</td>
-                </tr>
-                <tr>
-                    <td>Rammstein</td>
-                    <td>17 de mayo de 2019</td>
-                </tr>
-                <tr>
-                    <td>Zeit</td>
-                    <td>29 de abril de 2022</td>
-                </tr>
-
-            </table>
-        </div>
-    </div>
-
-    <br><br><br>
     <!-- inicio de footer -->
-    <footer id="pepe">
-        <img src="assets/img/logo.png" alt="logotipo">
-        <h3>Copyright &copy;</h3>
-        <h3>Coder House 2022</h3>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Rammstein_logos_joined.svg/1200px-Rammstein_logos_joined.svg.png"
+                    alt="" width="50" height="24" class="img-fluid">
+            </a>
+            <span class="text-muted fs-4">© 2022 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a class="text-muted" href="https://twitter.com/RSprachrohr" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
+                        alt="" width="30" height="24" class="img-fluid">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-muted" href="https://www.instagram.com/rammsteinofficial/?hl=es" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                        alt="" width="30" height="24" class="img-fluid">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-muted" href="https://www.facebook.com/Rammstein" target="_blank">
+                    <img src="https://cdn.icon-icons.com/icons2/1109/PNG/512/1486053608-facebook_79182.png" alt=""
+                        width="30" height="24" class="img-fluid">
+                </a>
+            </li>
+        </ul>
     </footer>
     <!-- fin de footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

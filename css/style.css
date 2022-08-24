@@ -121,3 +121,15 @@ footer h3 {
     width: 100%;
     height: 100%
 }
+
+section{
+    background-color: rgba(238, 238, 228, 0.281)
+}
+
+#imgNosotros{
+    border-radius: 10px;
+}
+
+label{
+    font-size: 2.3em;
+}

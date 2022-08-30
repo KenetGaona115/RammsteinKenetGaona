@@ -1,0 +1,104 @@
+@import "modules/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 10px;
+    background-image: url(../assets/img/backgroud.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    font-size:$font-percent;
+}
+
+/* regla para usar una font descargada a la pc */
+@font-face {
+    font-family: 'Lato';
+    src: url('../assets/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../assets/fonts/Lato-Bold.ttf');
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h4 {
+    font-size: $font-size;
+}
+
+table {
+    font-style: oblique;
+    font-family: 'Lato';
+    font-size: $font-size;
+}
+
+p {
+    font-size: 3rem;
+}
+
+
+nav {
+    font-size: 3rem;
+
+    li {
+        padding: 1%;
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+    }
+
+}
+
+.contenedorDesc {
+    width: 70%;
+    border: 1px solid;
+    margin: auto;
+
+    p {
+        margin: 2%;
+        font-size:$font-size
+    }
+}
+
+footer {
+    width: 100%;
+
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+.container{
+    img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%
+    
+    }
+
+    section {
+        background-color: rgba(238, 238, 228, 0.281);
+
+        img{
+            border-radius: 10px;
+        }
+    }
+}
+
+label {
+    font-size: 2.3em;
+}

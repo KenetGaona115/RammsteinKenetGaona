@@ -53,7 +53,11 @@ nav {
     font-size: 2.5rem; }
 
 footer {
-  width: 100%; }
+  width: 100%;
+  bottom: 0;
+  position: absolute; }
+  footer ul {
+    margin-right: 2%; }
   footer h3 {
     font-size: 2rem; }
 
@@ -69,3 +73,16 @@ footer {
 
 label {
   font-size: 2.3em; }
+
+form p {
+  font-size: 1.5rem; }
+
+form .form-check-input {
+  margin-top: 1rem;
+  top: 0.5rem !important;
+  left: -2rem !important;
+  width: 1.8rem !important;
+  height: 1.8rem !important; }
+
+form label {
+  margin-left: 1rem; }
